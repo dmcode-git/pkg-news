@@ -3,10 +3,29 @@
     "description": "The package News for laravel system",
     "type": "library",
     "license": "MIT",
+    "authors": [
+    {
+      "name": "DouDangt",
+      "email": "datpa@dmcode.info"
+    }
+  ],
     "autoload": {
         "psr-4": {
-            "DMCode\\PkgNews\\": "src/"
+            "DMCode\\NewsPackage\\": "src/"
         }
     },
-    "require": {}
+    "extra": {
+    "laravel": {
+      "providers": [
+        "DMCode\\NewsPackage\\NewsPackageServiceProvider"
+      ],
+      "aliases": {
+
+      }
+    }
+  },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^10.0"
+    }
 }
