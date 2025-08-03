@@ -1,0 +1,11 @@
+{
+    "name": "dmcode/pkg-news",
+    "description": "The package News for laravel system",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "DMCode\\PkgNews\\": "src/"
+        }
+    },
+    "require": {}
+}
