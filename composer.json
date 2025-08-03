@@ -25,7 +25,7 @@
     }
   },
     "require": {
-        "php": "^8.0",
-        "illuminate/support": "^10.0"
+        "php": "^8.4",
+        "illuminate/support": "^12.0"
     }
 }
