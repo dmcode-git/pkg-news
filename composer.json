@@ -2,6 +2,7 @@
     "name": "dmcode/pkg-news",
     "description": "The package News for laravel system",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "DMCode\\PkgNews\\": "src/"
