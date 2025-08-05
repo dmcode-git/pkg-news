@@ -1,5 +1,6 @@
 {
     "name": "dmcode/pkg-news",
+    "version": "dev-main",
     "description": "The package News for laravel system",
     "type": "library",
     "license": "MIT",

@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use DMCode\NewsPackage\Http\Controllers\NewsController;
 
-Route::get('news', function () {
-    return 'Hello from News Package!';
+Route::middleware(['web', 'auth', 'verified'])->group(function () {
+    Route::get('news', [NewsController::class, 'index'])->name('news.index');
 });
